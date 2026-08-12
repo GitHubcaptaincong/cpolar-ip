@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+build/
+dist/
+*.spec
+.venv/
+venv/
+
+# Local credentials and runtime state
+.env
+.env.*
+!.env.example
+secrets.json
+config.local.json
+state.json
+app.log*
+CpolarNotifier/
+
+# Accidental local scratch file that previously contained a credential
+新建 文本文档.txt
