@@ -214,7 +214,3 @@ python -m compileall -q app.py cpolar_notifier tests
 ## 贡献
 
 欢迎提交 Issue 或 Pull Request。修复日志兼容性问题时，请使用脱敏后的日志片段，不要提交 cpolar Authtoken、通知密钥、邮箱授权码或真实私人隧道地址。
-
-## 许可证
-
-仓库当前未附带开源许可证。公开到 GitHub 后，如果希望允许其他人复制、修改和分发代码，请根据你的授权意愿添加合适的 `LICENSE`；个人工具常见选择是 MIT License。
