@@ -35,7 +35,13 @@
 
 ## 快速开始
 
-下载源码并进入项目目录后，双击：
+下载源码并进入项目目录后，先创建项目专用虚拟环境：
+
+```powershell
+python -m venv .venv
+```
+
+项目没有第三方运行依赖，不需要额外执行 `pip install`。创建完成后双击：
 
 ```text
 启动界面.cmd
@@ -44,7 +50,7 @@
 也可以在 PowerShell 中运行：
 
 ```powershell
-python app.py
+.\.venv\Scripts\python.exe app.py
 ```
 
 首次使用：
@@ -141,16 +147,16 @@ Telegram Bot API 在部分网络环境中可能需要可用的国际网络连接
 
 ```powershell
 # 显示主界面；已有实例时唤醒现有窗口
-python app.py
+.\.venv\Scripts\python.exe app.py
 
 # 隐藏到托盘并开始监听
-python app.py --headless
+.\.venv\Scripts\python.exe app.py --headless
 
 # 立即检查一次；已有实例时把检查请求交给现有实例
-python app.py --check-once
+.\.venv\Scripts\python.exe app.py --check-once
 
 # 退出已运行的实例
-python app.py --exit
+.\.venv\Scripts\python.exe app.py --exit
 ```
 
 ## 数据与安全
